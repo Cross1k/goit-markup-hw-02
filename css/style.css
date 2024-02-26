@@ -1,5 +1,6 @@
 body {
-  font-family: roboto, raleway, sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: #ffffff;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -20,13 +21,30 @@ h3 {
   color: #2e2f42;
 }
 
+address {
+  font-style: normal;
+}
+
+.studio {
+  color: #2e2f42;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 .menu,
 .contact {
   text-decoration: none;
 }
 
 .menu {
-  color: #2e2f42;
+  color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .menu:hover,
