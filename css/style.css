@@ -25,7 +25,7 @@ address {
   font-style: normal;
 }
 
-.studio {
+span {
   color: #2e2f42;
 }
 
@@ -38,13 +38,16 @@ address {
   text-transform: uppercase;
 }
 .menu,
-.contact {
+.contact-info {
   text-decoration: none;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .menu {
-  color: #434455;
+  color: #2e2f42;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .menu:hover,
