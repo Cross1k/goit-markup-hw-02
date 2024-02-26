@@ -1,0 +1,65 @@
+body {
+  font-family: roboto, raleway, sans-serif;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  font: regular;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: medium;
+}
+
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+.menu,
+.contact {
+  text-decoration: none;
+}
+
+.menu {
+  color: #2e2f42;
+}
+
+.menu:hover,
+.menu:focus {
+  color: #404bbf;
+}
+
+.menu:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.contact {
+  color: #2e2f42;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+.hero,
+footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
