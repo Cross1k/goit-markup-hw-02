@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
   font-size: 16px;
@@ -36,6 +36,7 @@ span {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-weight: 700;
 }
 .menu,
 .contact-info {
@@ -60,12 +61,12 @@ span {
   text-decoration: underline;
 }
 
-.contact {
+.contact-info {
   color: #2e2f42;
 }
 
-.contact:hover,
-.contact:focus {
+.contact-info:hover,
+.contact-info:focus {
   color: #404bbf;
 }
 
