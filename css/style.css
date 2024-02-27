@@ -7,22 +7,28 @@ body {
   font: regular;
 }
 
+address {
+  font-style: normal;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
-.table,
-.team,
-.portfolio {
+.table-title,
+.team-title,
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -88,6 +94,11 @@ a {
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
@@ -100,26 +111,29 @@ a {
 
 .table-list-item,
 .table-list-item,
-.portfolio-list-item {
+.portfolio-list-item,
+.footer-paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .team {
   background-color: #f4f4fd;
 }
 
-.portfolio {
+.portfolio,
+.team-list {
   background-color: #ffffff;
 }
 
 .footer {
   background-color: #2e2f42;
-  color: #f4f4fd;
 }
 
-.footer-span {
+.footer-span,
+.footer-paragraph {
   color: #f4f4fd;
 }
